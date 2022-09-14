@@ -35,7 +35,7 @@ All you need to do is:
          framework: terraform # optional: run only on a specific infrastructure {cloudformation,terraform,kubernetes,all}
          output_format: cli
          quiet: false
-         external_checks_dir: ./checkov
+         external_checks_dirs: ./checkov
          download_external_modules: true # optional: download external terraform modules from public git repositories and terraform registry
          log_level: DEBUG # optional: set log level. Default WARNING
 
