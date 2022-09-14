@@ -56,7 +56,7 @@ An example workflow configuration can be found [here](examples/code_scanning.yml
 | check | filter scan to run only on a specific check identifier, You can specify multiple checks separated by comma delimiter | No |  | Input parameters |
 | skip_check | filter scan to run on all check but a specific check identifier(blacklist), You can specify multiple checks separated by comma delimiter, clashes with check | No |  | Input parameters |
 | quiet | display only failed checks | No |  | Input parameters |
-| external_checks_dir | Directory for custom checks to be loaded | No |  | Input parameters |
+| external_checks_dirs | Directory for custom checks to be loaded | No |  | Input parameters |
 | output_format| The format of the output - json - cli - sarif | No |  | Input parameters |
 | framework | run on a specific infrastructure | No | | cloudformation,terraform,kubernetes,all |
 | download_external_modules | download external terraform modules from public git repositories and terraform registry | No | |Input parameters |
